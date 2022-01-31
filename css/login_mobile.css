@@ -1,0 +1,22 @@
+@charset "UTF-8";
+.theader {
+  padding: 5px;
+  height: 65px;
+}
+.header_logo {
+  font-size: 50px;
+}
+.header_menu a {
+  padding-bottom: 0px;
+  margin: 3px;
+}
+.bodySection01 {
+  height: 520px;
+}
+.section01_Div {
+  width: 400px;
+  height: 350px;
+}
+.section01_Div strong {
+  font-size: 30px;
+}
