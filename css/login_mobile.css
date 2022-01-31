@@ -19,7 +19,7 @@
   padding-bottom: 20px;
 }
 .section01_Div strong {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 500;
 }
 .section01_Div p {
@@ -30,4 +30,11 @@
 }
 .section01_btnDiv a span {
   font-size: 17px;
+}
+.bodySection02 {
+  height: 700px;
+  background: url(../img/iphone_remove_shadow.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
 }

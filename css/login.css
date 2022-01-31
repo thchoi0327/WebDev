@@ -7,12 +7,17 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  padding-top: 750px;
+}
 a {
   color: black;
   text-decoration: none;
 }
 .theader {
   position: fixed;
+  top: 0;
+  left: 0;
   width: 100vw;
   height: 120px;
   display: flex;
@@ -36,7 +41,7 @@ a {
   width: 40px;
   height: 40px;
   font-size: 20px;
-  -bottom: 4px;
+  padding-bottom: 4px;
   font-weight: bold;
   border-radius: 50%;
   margin: 0 8px;
@@ -49,10 +54,12 @@ a {
 }
 /* 여기서부터 바디 */
 .bodySection01 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -22;
   height: 750px;
   width: 100vw;
-  display: table;
-  position: relative;
   background: url(../img/background01.jpg) no-repeat center center;
   background-size: cover;
 }
@@ -70,7 +77,6 @@ a {
   width: 800px;
   height: 530px;
   position: absolute;
-  z-index: 10;
   bottom: 0px;
   left: 50%;
   transform: translate(-50%);
@@ -83,7 +89,7 @@ a {
 }
 
 .section01_Div strong {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 500;
   flex: 1;
 }
@@ -139,4 +145,30 @@ p,
 }
 .section01_btnDiv a span {
   padding-bottom: 3px;
+}
+/* section2 */
+.bodySection02 {
+  width: 100vw;
+  height: 640px;
+  background: url(../img/section02_back1.png) no-repeat center center;
+  background-size: cover;
+  background-color: white;
+}
+.bodySection02_innerDiv {
+  width: 60vw;
+  height: 640px;
+  position: relative;
+  margin: 0 auto;
+}
+.bodySection02_mentDiv {
+  position: absolute;
+  width: 416px;
+  height: 329px;
+  top: 137px;
+  right: 24px;
+  display: flex;
+  flex-direction: column;
+  border: 3px solid red;
+}
+.bodySection02_mentDiv {
 }
